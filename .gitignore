@@ -1,0 +1,89 @@
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules directory (Node.js projects)
+node_modules/
+
+# Ignore logs
+*.log
+logs/
+*.out
+*.err
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+
+# Ignore compiled files
+*.class
+*.pyc
+*.o
+*.obj
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore dependency directories
+vendor/
+bundle/
+
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+
+# Ignore build directories and files
+dist/
+build/
+target/
+
+# Ignore coverage files
+coverage/
+*.lcov
+
+# Ignore packaged files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore generated documentation
+docs/
+
+# Ignore system files
+*.iml
+*.ipr
+*.iws
+
+# Ignore database files
+*.sqlite
+*.sql
+*.db
+
+# Ignore API keys and secrets
+secrets.json
+secrets.yml
+
+# Ignore specific files in root directory
+/.env
+/.secret
+/.cache
+
+# Ignore temporary files created during development
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore test result files
+*.test_result
+*.result
